@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Play:wght@400;700&display=swap');
+
+#titleDiv {
+  flex: display;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutDiv {
+  flex: display;
+  justify-content: center;
+  align-items: center;
+}
+
+#titleText {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 110px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.toolbar {
+  display: flex;
+  font-family: 'Montserrat';
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #3b3b3b;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.toolbarText {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.content {
+  margin-top: 60px;
+  padding: 200px;
+}
+
+.headerText {
+  font-family: 'Play', sans-serif;
+  font-size: 63px;
+  font-weight: 700;
+  /* color: #ffd700; */
+  /* color: #98fb98; */
+  color: #40e0d0;
+  /* color: #ffdb58; */
+  /* color: #ffb6c1; */
+  /* color: hotpink; */
+  /* color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentText {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 50px;
+}
+
+.feature-item img {
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+.feature-header-text {
+  font-family: 'Play', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.teamMembers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.teamName {
+  font-family: 'Play', sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.teamImages img {
+  height: 200px;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.linkIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkIcons img {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
